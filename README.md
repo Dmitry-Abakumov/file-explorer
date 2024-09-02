@@ -113,7 +113,7 @@ To run this project you need to follow these steps:
    repository to your computer.
 2. **Install the dependencies**: Open a terminal in the root of the project and
    run `npm install` or `yarn install` to install all required dependencies.
-3. **Setting environment variables**: Create a `.env` file in the root folder
+3. **Setting environment variables**: Create a `.env.local` file in the root folder
    and add the necessary environment variables that you need for the project
    according to the `.env.example` file.
 4. **Run the application**: Run the `npm run dev` or `yarn dev` command to run

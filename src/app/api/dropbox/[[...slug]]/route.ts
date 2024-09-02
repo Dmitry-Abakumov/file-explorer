@@ -26,8 +26,6 @@ export const GET = async (
       path: slug ? finalPath : "",
     })) as DropboxResponse<{ entries: DropboxFiles }>;
 
-    console.log("SERVER_RESPONSE ", response);
-
     return NextResponse.json(response.result.entries);
   } catch (err) {
     return NextResponse.json(

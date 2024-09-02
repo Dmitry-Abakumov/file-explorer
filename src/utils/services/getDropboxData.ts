@@ -1,6 +1,6 @@
 import { DropboxFiles } from "@/types/dropbox";
 
-const BASE_URL = "https://aquamarine-nougat-af53aa.netlify.app/file-explorer";
+const BASE_URL = "https://iridescent-capybara-a66fa8.netlify.app/";
 
 export const getDropboxData = async (
   path: string
