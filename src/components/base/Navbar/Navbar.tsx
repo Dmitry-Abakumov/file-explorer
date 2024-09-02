@@ -15,18 +15,23 @@ export const Navbar = () => {
   return (
     <nav>
       <ul className="flex items-center justify-center gap-2">
-        {navLinks.map(({ path, label }) => (
-          <li key={path}>
-            <Link
-              href={path}
-              className={cn("text-2xl", {
-                "text-yellow-500": pathname === path,
-              })}
-            >
-              {label}
-            </Link>
-          </li>
-        ))}
+        {navLinks.map(({ path, label }) => {
+          const isActive =
+            path === "/" ? pathname === path : pathname.startsWith(path);
+
+          return (
+            <li key={path}>
+              <Link
+                href={path}
+                className={cn("text-2xl", {
+                  "text-yellow-500": isActive,
+                })}
+              >
+                {label}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );
