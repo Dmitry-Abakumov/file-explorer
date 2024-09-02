@@ -54,9 +54,9 @@ This is a list of reusable components and their API.
 - #### Button
 
 | Prop         | Default    | Description                                              |
-| ------------ | ---------- | -------------------------------------------------------- | -------- | ---------------------------- |
+| ------------ | ---------- | -------------------------------------------------------- | --- | -------- | ---------------------------- |
 | `children`   | -          | required, `React.ReactNode`, content of the button.      |
-| `type`       | - `button` | optional, `button`                                       | `submit` | `reset`, type of the button. |
+| `type`       | - `button` | optional, `button`                                       |     | `submit` | `reset`, type of the button. |
 | `className`  | ''         | optional, add custom or additional css class you'd need. |
 | `otherProps` | -          | optional, `any`, other props can be provided.            |
 
