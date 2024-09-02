@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <head>
-        <meta name="next-size-adjust" property="" />
+        <meta name="next-size-adjust" content="" property="" />
       </head>
       <body className={inter.className}>
         <Header />
