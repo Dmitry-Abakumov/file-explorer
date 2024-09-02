@@ -53,16 +53,18 @@ This is a list of reusable components and their API.
 
 - #### Button
 
+The reusable Button component
+
 | Prop         | Default | Description                                                         |
-| ------------ | ------- | ------------------------------------------------------------------- | --- | -------- | -------------------------------- |
+| ------------ | ------- | ------------------------------------------------------------------- |
 | `children`   | -       | required, `React.ReactNode`, the content of the button.             |
-| `type`       | -       | optional, `button`                                                  |     | `submit` | `reset`, the type of the button. |
+| `type`       | -       | optional, `button` or`submit` or `reset`, the type of the button.   |
 | `className`  | -       | optional, `string`, adds custom or additional css class you'd need. |
 | `otherProps` | -       | optional, `any`, other props can be provided.                       |
 
 - #### File
 
-Component - card for section overview dev process.
+The File component
 
 | Prop           | Default | Description                                                      |
 | -------------- | ------- | ---------------------------------------------------------------- |
@@ -72,6 +74,8 @@ Component - card for section overview dev process.
 | `path_display` | -       | required, `string`, the path to the file or folder.              |
 
 - #### TextField
+
+The reusable TextField component
 
 | Prop             | Default | Description                                                                     |
 | ---------------- | ------- | ------------------------------------------------------------------------------- |
