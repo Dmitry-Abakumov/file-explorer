@@ -102,7 +102,8 @@ The reusable TextField component
   - React-icons
   - Clsx
   - React-toastify
-    ...full list of dependencies is available in `package.json` file.
+
+  ...full list of dependencies is available in `package.json` file.
 
 ## 🗃️ How to run the project in development 🗃️
 
