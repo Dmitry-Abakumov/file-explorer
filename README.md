@@ -111,6 +111,8 @@ To run this project you need to follow these steps:
    run `npm install` or `yarn install` to install all required dependencies.
 3. **Setting environment variables**: Create a `.env.local` file in the root folder
    and add the necessary environment variables that you need for the project
-   according to the `.env.example` file.
+   according to the `.env.local.example` file.
 4. **Run the application**: Run the `npm run dev` or `yarn dev` command to run
    the project on the local server.
+5. **Changing BASE_URL variable**: You also need to change the BASE_URL variable in the
+   "/src/utils/services/getDropboxData.ts" file to the server root. For example: BASE_URL=http://localhost:3000
