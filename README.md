@@ -107,7 +107,7 @@ The reusable TextField component
 
 ## 🗃️ How to run the project in development 🗃️
 
-To deploy this project, you need to perform the following steps:
+To run this project you need to follow these steps:
 
 1. **Clone the repository**: Use the `git clone` command to clone this
    repository to your computer.
