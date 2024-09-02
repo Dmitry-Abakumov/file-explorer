@@ -1,0 +1,28 @@
+{
+  "tools": [
+    {
+      "id": "1",
+      "label": "Level up",
+      "ariaLabel": "Button to go to the previous folder",
+      "isProvided": true
+    },
+    {
+      "id": "2",
+      "label": "New folder",
+      "ariaLabel": "Button to create a new folder",
+      "isProvided": false
+    },
+    {
+      "id": "3",
+      "label": "Upload file",
+      "ariaLabel": "Button to upload a new file",
+      "isProvided": false
+    },
+    {
+      "id": "4",
+      "label": "Refresh",
+      "ariaLabel": "Button to refresh folders and files",
+      "isProvided": false
+    }
+  ]
+}

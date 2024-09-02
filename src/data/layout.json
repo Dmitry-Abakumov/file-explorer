@@ -1,0 +1,12 @@
+{
+  "navLinks": [
+    {
+      "path": "/",
+      "label": "Home"
+    },
+    {
+      "path": "/file-explorer",
+      "label": "Files"
+    }
+  ]
+}
