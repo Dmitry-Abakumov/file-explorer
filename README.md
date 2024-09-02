@@ -16,10 +16,6 @@ A Next.js web application - File explorer
 
 - **Synchronization with Dropbox account**: All information about folders and files is taken from the Dropbox service.
 - **Search files**: The ability to search for files and folders has been implemented. When entering the name of folders or files in the input, only those files and folders whose name matches the entered data are displayed on the screen (register and spaces at the beginning and end of the entered data are not taken into account).
-- **Modularity and reusability**: The product is built using a component
-  approach, which makes the code modular and allows components to be used on
-  different pages and in different sections of the project. This simplifies the
-  maintenance of the site and the expansion of its functionality.
 - **Moving through folders**:
   The ability to view the contents of folders and navigate between them has been implemented.
 
