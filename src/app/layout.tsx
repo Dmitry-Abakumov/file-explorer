@@ -20,11 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <head>
-        <meta name="description" content="File explorer" />
-        <meta
-          property="og:title"
-          content="A simple application to view dropbox files"
-        />
+        <meta name="next-size-adjust" content="" />
       </head>
       <body className={inter.className}>
         <Header />
