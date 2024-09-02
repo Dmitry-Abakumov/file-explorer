@@ -1,6 +1,6 @@
 # FILE EXPLORER 💻🧩👨🏿‍💻
 
-**[View live page](https://spilno.vercel.app/)**
+**[View live page](https://iridescent-capybara-a66fa8.netlify.app/)**
 
 ---
 

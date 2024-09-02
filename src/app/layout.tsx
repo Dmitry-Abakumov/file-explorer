@@ -4,14 +4,13 @@ import { ToastContainer } from "react-toastify";
 
 import { Header } from "@/layout";
 
+import meta from "@/data/meta";
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "File explorer",
-  description: "A simple application to view dropbox files",
-};
+export const metadata: Metadata = meta;
 
 export default function RootLayout({
   children,
@@ -20,6 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
+      <head>
+        <meta name="description" content="File explorer" />
+        <meta
+          property="og:title"
+          content="A simple application to view dropbox files"
+        />
+      </head>
       <body className={inter.className}>
         <Header />
 
